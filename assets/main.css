@@ -1,0 +1,13 @@
+  
+/* .navbar-brand{
+    margin-right: -72px;
+ 
+ 
+ }*/
+.navbar i{
+    color:#503217;
+  }
+  .navbar-nav {
+  gap: 30px;
+  color:#503217;  
+}
