@@ -94,3 +94,23 @@ margin-left: 100px;
  
    
 }
+/*end hero*/
+/* start by cateagories*/
+.text-brown {
+  color: #5a3a20;
+}
+.card{
+  background-color: #EBE9E0 ;
+}
+.categories{
+  background-color:#EBE9E0  ;
+}
+.item-color{
+  color:#8F7D6A;
+}
+@media (max-width: 520px) {
+  .col-custom {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
