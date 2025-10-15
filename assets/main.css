@@ -1,4 +1,4 @@
-  
+ 
 
 
 .navbar i{
@@ -20,7 +20,7 @@
 .hero-text {
   max-width: 40%;
 margin-left: 100px;
- 
+ font-family: Poppins ;
 }
 .hero-text h1 {
   font-size: 4rem;
@@ -128,4 +128,52 @@ border-radius: 15px;
 display: block;
 }
 /*end shop by categories>*/
+/*start latest products*/
+.latest-products h2{
+  color: #503217;
+  font-size: 48px;
+  font-family:Poppins  ;
+}
+.latest-products{
+  background-color: #EBE9E0 ;
+}
+.product-card h5{
+  font-size: 24px;
+  font-family: Poppins;
+  color: #503217;
+  padding-top: 15px;
+  margin-bottom: 5px;
+  
+}
+.product-card p{
+  color: #8F7D6A;
+  font-size: 18px;
+}
+  
+.features{
+  
+  background-color: #761a1a;
+  width: 1300px;
+  height: 140px;
+}
+ .icon-wrapper {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  flex-shrink: 0;
+}
 
+ 
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  color: #503217;
+}
+ 
+
+
+
+ 
