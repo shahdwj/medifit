@@ -128,14 +128,15 @@ border-radius: 15px;
 display: block;
 }
 /*end shop by categories>*/
-/*start latest products*/
+/*=========================================start latest products======================================*/
 .latest-products h2{
   color: #503217;
   font-size: 48px;
-  font-family:Poppins  ;
+  font-family:'Poppins'  ;
 }
 .latest-products{
   background-color: #EBE9E0 ;
+  
 }
 .product-card h5{
   font-size: 24px;
@@ -149,7 +150,55 @@ display: block;
   color: #8F7D6A;
   font-size: 18px;
 }
+ 
+.product-card img{
+   
+ width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+   .shop-button{ 
+    position: absolute;
+    bottom: -976px;
+    background-color:#E2DFCF ;
+    color: #503217;
+    font-family:Poppins;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    width: 262px;
+    text-align: center;
+    padding: 8px 20px;
+    opacity: 0;
+    justify-content: center;
+    display: flex;
+  align-items: center;
+                 } 
+  .shop-button i {
+  color: #503217; 
+} 
+.product-card:hover .shop-button {
+    opacity: 1;
+    bottom: -980px; 
+      }
   
+
+ 
+.product-card:hover .shop-button {
+  opacity: 1;
+  
+}
+
+ 
+.shop-button i {
+  font-size: 18px;
+  color: #503217;
+}
+
+ 
+/*========================end latest products ==================================================*/
 .features{
   
   background-color: #761a1a;
@@ -172,11 +221,12 @@ display: block;
   font-size: 18px;
   color: #503217;
 }
+
   
 
 
 
- /*start signup*/
+ /*=====================================start newletter=======================================*/
 .signup  {
   padding-top: 130px;
    background-color: #E8E6DE ;
@@ -341,6 +391,6 @@ display: block;
 
   
 }
-
+/*============================end newsletter section======================================*/
  
  
