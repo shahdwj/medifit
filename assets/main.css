@@ -161,7 +161,7 @@ display: block;
 }
    .shop-button{ 
     position: absolute;
-    bottom: -976px;
+     
     background-color:#E2DFCF ;
     color: #503217;
     font-family:Poppins;
@@ -181,7 +181,7 @@ display: block;
 } 
 .product-card:hover .shop-button {
     opacity: 1;
-    bottom: -980px; 
+     
       }
   
 
@@ -199,28 +199,7 @@ display: block;
 
  
 /*========================end latest products ==================================================*/
-.features{
-  
-  background-color: #761a1a;
-  width: 1300px;
-  height: 140px;
-}
- .icon-wrapper {
-  position: relative;
-  width: 70px;
-  height: 70px;
-  flex-shrink: 0;
-}
-
  
-.icon {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 18px;
-  color: #503217;
-}
 
   
 
@@ -393,4 +372,64 @@ display: block;
 }
 /*============================end newsletter section======================================*/
  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===============start footer ========================================================*/
+.footer {
+  background-color:#E8E6DE ;
+  color: #503217; 
+   
+}
+.footer h5 {
+  font-weight: 600;
+  font-size: 24px;
+  font-family:Poppins;
+}
+
+.footer-link {
+  color: #4a2f1a;
+  text-decoration: none;
+  transition: 0.2s;
+  font-size: 18px;
+}
+
+.footer-link:hover {
+  color: #7b4b27;
+  text-decoration: underline;
+}
+
+ .text-muted{
+  color:#8F7D6A!important;
+  font-size: 18px;
+  font-family: sans-serif;
+ }
+
+.social-links a {
+  display: inline-block;
+  color: #4a2f1a;
+  margin: 0 8px;
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+
+.social-links a:hover {
+  color: #7b4b27;
+}
+.logo img{
+  margin-bottom: 20px;
+   
+}
  
